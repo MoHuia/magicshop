@@ -16,7 +16,7 @@ public class MagicShop {
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,MODID);
     public static final RegistryObject<Item> magic_shop = ITEMS.register("magicshop",()->new Item(new Item.Properties()));
-//12121121212121215555
+//121211212121212155511115
     public MagicShop() {
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
         ITEMS.register(bus);
