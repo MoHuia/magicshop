@@ -1,4 +1,4 @@
 package com.magicshop;
 
-public class ttt {
+public class qwe {
 }
