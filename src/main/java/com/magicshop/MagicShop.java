@@ -1,7 +1,10 @@
 package com.magicshop;
 
+import com.magicshop.item.wrench;
+import com.magicshop.net.ModMessage;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,5 +23,10 @@ public class MagicShop {
     public MagicShop() {
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
         ITEMS.register(bus);
+        ModMessage.register();
+        InitAll(bus);
+    }
+    public void InitAll(IEventBus iEventBus){//正常注册进世界总线
+        wrench.init(iEventBus);
     }
 }

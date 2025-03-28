@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.magicshop.mixin",
+  "refmap": "magicshop.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "client": [
+
+    "AbstractContainerMenuMixin",
+    "ServerGamePacketListenerImplMixin"
+  ],
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
