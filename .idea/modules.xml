@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.magicshop.magicshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.magicshop.magicshop.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.magicshop.magicshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.magicshop.magicshop.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/magicshop-master.magicshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/magicshop-master.magicshop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/magicshop-master.magicshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/magicshop-master.magicshop.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/magicshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/magicshop.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/magicshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/magicshop.test.iml" />
     </modules>
